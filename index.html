@@ -4,17 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solo Futbol</title>
-    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/imgs/logos/logo-solo-futbol.png">
 </head>
 <body>
+    <script src="https://kit.fontawesome.com/b81a788407.js" crossorigin="anonymous"></script>
     <header>
-
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/imgs/logos/logo-solo-futbol.png" class="nav-logo" alt="Imagen de logo de Sólo Fútbol"
+                title="Logo-Sólo-Fútbol">
+            </div>
+            <div class="menu">
+                <ul class="menu-links">
+                    <li><a href="/#about-us">Nosotros</a></li>
+                    <li><a href="/#categories">Categorias</a></li>
+                    <li><a href="/#products">Productos</a></li>
+                        <!-- <ul class="jerseys">Camisetas
+                            <ul class="jerseys-men">
+                                <li class="jerseys-men-national">Nacionales</li>
+                                <li class="jerseys-men-internat">Internacionales</li>
+                                <li class="jerseys-men-retro">Retro</li>
+                            </ul>
+                            <ul class="jerseys-women">
+                                <li class="jerseys-women-national">Nacionales</li>
+                                <li class="jerseys-women-internat">Internacionales</li>
+                                <li class="jerseys-women-retro">Retro</li>
+                            </ul>
+                        </ul>
+                        <ul id="pants">Pantalones
+                            <ul class="pants-men">
+                                <li class="pants-men-national">Nacionales</li>
+                                <li class="pants-men-internat">Internacionales</li>
+                                <li class="pants-men-retro">Retro</li>
+                            </ul>
+                            <ul class="pants-women">
+                                <li class="pants-women-national">Nacionales</li>
+                                <li class="pants-women-internat">Internacionales</li>
+                                <li class="pants-women-retro">Retro</li>
+                            </ul>
+                        </ul>
+                        <ul id="boots">Botines
+                            <ul class="boots-men">
+                                <li class="boots-men-adidas">Adidas</li>
+                                <li class="boots-men-nike">Nike</li>
+                                <li class="boots-men-puma">Puma</li>
+                            </ul>
+                            <ul class="boots-women">Accesorios
+                                <li class="boots-women-adidas">Adidas</li>
+                                <li class="boots-women-nike">Nike</li>
+                                <li class="boots-women-puma">Puma</li>
+                            </ul>
+                        </ul>
+                        <ul id="accesories">
+                            <li>Guantes</li>
+                            <li>Medias</li>
+                            <li>Canilleras</li>
+                        </ul> -->
+                    <li><a href="/#contact">Contacto</a></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+            </div>
+            <!-- <div class="menu-btn">
+                <i class='bx bx-menu'></i>
+            </div> -->
+        </nav>
     </header>
     <main>
-
+|       <section id="about-us">
+            <div>
+                <h2>¿Quiénes somos?</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse consectetur rerum amet animi odio vero ut nisi recusandae aliquam nesciunt quod harum nostrum natus voluptatem deleniti, voluptatum officiis, exercitationem dolore.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse consectetur rerum amet animi odio vero ut nisi recusandae
+                aliquam nesciunt quod harum nostrum natus voluptatem deleniti, voluptatum officiis, exercitationem dolore.</p>
+            </div>
+            <div><img src="./assets/imgs/random/hinchasseleccionjpeg.webp" alt="Imagen de hinchas argentinos"></div>
+        </section>
+        <section id="categories">
+            <div class="categories-title">
+                <h2>Categorías</h2>
+            </div>
+            <div class="categories-cards">
+                <div class="categories-items-card">
+                    <a href="/camisetas">
+                        <img src="./assets/imgs/products/categories/camiseta-argentina-suplente-24-removebg-preview.png" alt="imagen de una camiseta">    
+                        <h4>Camisetas</h4>
+                    </a>
+                </div>
+                <div class="categories-items-card">
+                    <a href="/pants">
+                        <img src="./assets/imgs/products/categories/short-manchester-city-titular-removebg-preview.png"
+                            alt="imagen de una shorts">
+                        <h4>Pantalones</h4>
+                    </a>
+                </div>
+                <div class="categories-items-card">
+                    <a href="/boots">
+                        <img src="./assets/imgs/products/categories/botines-de-futbol-puma-future-4-3-fg-ag-ni-o-ni-a-naranja-removebg-preview.png"
+                            alt="imagen de un par de botines">
+                        <h4>Botines</h4>
+                    </a>
+                </div>
+                <div class="categories-items-card">
+                    <a href="/accesories">
+                        <img src="./assets/imgs/products/categories/guantes-arquero-reusch-removebg-preview.png"
+                            alt="imagen de par de guantes">
+                        <h4>Accesorios</h4>
+                    </a>
+                </div>                         
+            </div>
+        </section>
+        <section id="products">
+            <div class="products-title">
+                <h2>Productos</h2>
+            </div>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/jerseys/national/Camiseta_Titular_Argentina_24_Blanco_IP8400_01_laydown-removebg-preview.png" alt="imagen camiseta selección nacional Argentina">
+                <p>Camiseta titular Selección Argentina</p>
+                <p>$ 100000</p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/jerseys/international/liverpool-titular-removebg-preview.png" alt="imagen de Camiseta titular Liverpool">
+                <p>Camiseta titular Liverpool</p>
+                <p>$ 100000</p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/jerseys/retro/napoli-buitoni-removebg-preview.png" alt="Imagen Camiseta retro Napoli Buitoni">
+                <p>Camiseta retro Napoli Buitoni</p>
+                <p>$ 30000 <span>$ 60000</span></p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/jerseys/national/Camiseta_Titular_River_Plate_23-24_Mujer_Blanco_HY3209_01_laydown-removebg-preview.png" alt="Imagen Camiseta titular River Plate Mujer">
+                <p>Camiseta titular River Plate Mujer</p>
+                <p>$ 100000</p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/boots/Botines_X_Speedportal.4_Multiterreno_Rosa_GZ2461_22_model-removebg-preview.png" alt="">
+                <p>Botines Puma X Speedportal Mujer</p>
+                <p>$ 100000 <span>$ 85000</span></p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/pants/short-barcelona-titular-removebg-preview.png" alt="Imagen Short titular Barcelona">
+                <p>Short titular Barcelona</p>
+                <p>$ 90000</p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/boots/botines-nike-removebg-preview.png" alt="Imagen Botines Nike Zoom Mercurial">
+                <p>Botines Nike Zoom Mercurial Vapor 15 Pro FG</p>
+                <p>$ 100000</p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>
+            <article class="products-cards">
+                <img src="./assets/imgs/products/accesories/gloves/guantes-puma-ultra-ultimate-removebg-preview.png" alt="Imagen Guantes Puma Ultra Ultimate">
+                <p>Guantes Puma Ultra Ultimate</p>
+                <p>$ 700000</p>
+                <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
+            </article>   
+        </section>
+        <section id="contact">
+            <h2 class="contact-title">Dejanos tu mensaje</h2>
+            <form action="" form-card>
+                <label>
+                    <input type="text" name="nombre" id="" required placeholder="Nombre">
+                </Label>
+                <Label>
+                    <input type="email" name="email" id="" reuired placeholder="Mail">
+                </Label>
+                <Label>
+                    <input type="textarea" name="email" id="" reuired placeholder="Mensaje">
+                </Label>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
-        
+        <p>Contacto/p>
+        <p>admin@solofutbol.com.ar</p>
+        <p>+549261121212</p> 
     </footer>
 </body>
 </html>
