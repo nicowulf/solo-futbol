@@ -20,48 +20,35 @@
                 <ul class="menu-links">
                     <li><a href="/#about-us">Nosotros</a></li>
                     <li><a href="/#categories">Categorias</a></li>
-                    <li><a href="/#products">Productos</a></li>
-                        <!-- <ul class="jerseys">Camisetas
-                            <ul class="jerseys-men">
-                                <li class="jerseys-men-national">Nacionales</li>
-                                <li class="jerseys-men-internat">Internacionales</li>
-                                <li class="jerseys-men-retro">Retro</li>
+                    <li><a href="/#products" class="droplink">Productos <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <!-- <div class="droplink-content">
+                            <ul class="droplink-jerseys">Camisetas
+                                <li class="jerseys-national">Nacionales</li>
+                                <li class="jerseys-internat">Internacionales</li>
+                                <li class="jerseys-retro">Retro</li>
                             </ul>
-                            <ul class="jerseys-women">
-                                <li class="jerseys-women-national">Nacionales</li>
-                                <li class="jerseys-women-internat">Internacionales</li>
-                                <li class="jerseys-women-retro">Retro</li>
+                        </div>
+                        <div class="droplink-content">
+                            <ul class="droplink-pants">Pantalones
+                                <li class="pants-national">Nacionales</li>
+                                <li class="pants-internat">Internacionales</li>
+                                <li class="pants-retro">Retro</li>
                             </ul>
-                        </ul>
-                        <ul id="pants">Pantalones
-                            <ul class="pants-men">
-                                <li class="pants-men-national">Nacionales</li>
-                                <li class="pants-men-internat">Internacionales</li>
-                                <li class="pants-men-retro">Retro</li>
+                        </div>
+                        <div class="droplink-content">
+                            <ul class="droplink-boots">Botines
+                                <li class="boots-adidas">Adidas</li>
+                                <li class="boots-nike">Nike</li>
+                                <li class="boots-puma">Puma</li>
                             </ul>
-                            <ul class="pants-women">
-                                <li class="pants-women-national">Nacionales</li>
-                                <li class="pants-women-internat">Internacionales</li>
-                                <li class="pants-women-retro">Retro</li>
+                        </div>
+                        <div  class="droplink-content">
+                            <ul class="droplink-accesories">Accesorios
+                               <li>Guantes</li>
+                               <li>Medias</li>
+                               <li>Canilleras</li>
                             </ul>
-                        </ul>
-                        <ul id="boots">Botines
-                            <ul class="boots-men">
-                                <li class="boots-men-adidas">Adidas</li>
-                                <li class="boots-men-nike">Nike</li>
-                                <li class="boots-men-puma">Puma</li>
-                            </ul>
-                            <ul class="boots-women">Accesorios
-                                <li class="boots-women-adidas">Adidas</li>
-                                <li class="boots-women-nike">Nike</li>
-                                <li class="boots-women-puma">Puma</li>
-                            </ul>
-                        </ul>
-                        <ul id="accesories">
-                            <li>Guantes</li>
-                            <li>Medias</li>
-                            <li>Canilleras</li>
-                        </ul> -->
+                        </div> -->
                     <li><a href="/#contact">Contacto</a></li>
                     <li><i class="fa-solid fa-magnifying-glass"></i></li>
                     <li><i class="fa-solid fa-cart-shopping"></i></li>
@@ -75,7 +62,7 @@
     <main>
 |       <section id="about-us">
             <div>
-                <h2>¿Quiénes somos?</h2>
+                <h1>¿Quiénes somos?</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse consectetur rerum amet animi odio vero ut nisi recusandae aliquam nesciunt quod harum nostrum natus voluptatem deleniti, voluptatum officiis, exercitationem dolore.
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse consectetur rerum amet animi odio vero ut nisi recusandae
                 aliquam nesciunt quod harum nostrum natus voluptatem deleniti, voluptatum officiis, exercitationem dolore.</p>
@@ -147,7 +134,7 @@
             <article class="products-cards">
                 <img src="./assets/imgs/products/boots/Botines_X_Speedportal.4_Multiterreno_Rosa_GZ2461_22_model-removebg-preview.png" alt="">
                 <p>Botines Puma X Speedportal Mujer</p>
-                <p>$ 100000 <span>$ 85000</span></p>
+                <p>$ 85000 <span>$ 100000</span></p>
                 <button><i class="fa-solid fa-cart-plus"></i>Añadir al carrito</button>
             </article>
             <article class="products-cards">
@@ -171,15 +158,15 @@
         </section>
         <section id="contact">
             <h2 class="contact-title">Dejanos tu mensaje</h2>
-            <form action="" form-card>
+            <form action="" class="form-card">
                 <label>
-                    <input type="text" name="nombre" id="" required placeholder="Nombre">
+                    <input type="text" name="nombre" required placeholder="Nombre">
                 </Label>
                 <Label>
-                    <input type="email" name="email" id="" reuired placeholder="Mail">
+                    <input type="email" name="email" reuired placeholder="Mail">
                 </Label>
                 <Label>
-                    <input type="textarea" name="email" id="" reuired placeholder="Mensaje">
+                    <textarea name="textarea" rows="10" cols="40">Mensaje</textarea>
                 </Label>
                 <button type="submit">Enviar</button>
             </form>
