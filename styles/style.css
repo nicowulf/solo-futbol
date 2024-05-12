@@ -70,3 +70,33 @@ li{
     font-size: 18px;
 }
 
+#about-us{
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-bottom: solid 2px var(--primary-color);
+}
+
+.about-text{
+    width: 40%;
+}
+
+.about-text h1{
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+}
+
+.about-text p{
+    padding: 14px;
+    text-align: justify;
+}
+
+#about-us img{
+    width: 30em;
+    height: auto;
+}
