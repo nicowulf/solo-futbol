@@ -239,3 +239,39 @@ article:hover{
     color: var(--tertiary-color);
 }
 
+#contact {
+    height: 80vh;
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+}
+
+form * {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+}
+
+form input,
+textarea {
+    border: 1px solid var(--complementary-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#contact button{
+    width: 70%;
+    margin: 10px auto;
+}
